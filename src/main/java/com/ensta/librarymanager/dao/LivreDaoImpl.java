@@ -41,6 +41,7 @@ public class LivreDaoImpl implements ILivreDao {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new DaoException();
+			
 		}
 		return null;
 	}
