@@ -11,7 +11,7 @@ public interface IEmpruntDao {
 	public List<Emprunt> getListCurrentByMembre(int idMembre) throws DaoException;
 	public List<Emprunt> getListCurrentByLivre(int idLivre) throws DaoException;
 	public Emprunt getById(int id) throws DaoException;
-	public void create(int idMembre, int idLivre, LocalDate dateEmprunt) throws DaoException;
+	public void create(Emprunt emprunt) throws DaoException;
 	public void update(Emprunt emprunt) throws DaoException;
 	public int count() throws DaoException;
 }

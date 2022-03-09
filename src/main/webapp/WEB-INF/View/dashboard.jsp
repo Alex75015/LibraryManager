@@ -23,7 +23,7 @@
         <div class="col l4 s6">
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3>12</h3> <!-- TODO : afficher le nombre de membres à la place de 12 -->
+              <h3>17</h3> <!-- TODO : afficher le nombre de membres à la place de 12 -->
               <p>Membres</p>
             </div>
             <div class="icon">
@@ -35,7 +35,7 @@
         <div class="col l4 s6">
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>27</h3> <!-- TODO : afficher le nombre de livres à la place de 27 -->
+              <h3>${livreCount}</h3> <!-- TODO : afficher le nombre de livres à la place de 27 -->
               <p>Livres</p>
             </div>
             <div class="icon">
